@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df14ee1ab557a43f4b0bb6290b7ed9e3
+timeCreated: 1510128431
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - landscapeTexture: {fileID: 2800000, guid: 31668bb1f78ea43258fd11cf7378f01a, type: 3}
+  - portraitTexture: {fileID: 2800000, guid: 94997a5050c0d4d63ad8e55f9ec3a8f3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
