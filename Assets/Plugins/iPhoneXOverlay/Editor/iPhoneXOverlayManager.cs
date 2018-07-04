@@ -87,10 +87,8 @@ public static class iPhoneXOverlayManager
 			if (DispatcherGameObject == null)
 			{
 				Debug.Log("Creating OnGUIDispatcher for iPhone X Overlay.");
-				var prefab = Resources.Load<OnGUIDispatcher>(DispatcherName);
-				var overlay = Object.Instantiate(prefab);
-				overlay.gameObject.hideFlags = HideFlags.DontSave | HideFlags.HideInHierarchy;
-				overlay.name = prefab.name;
+				var gameObject = new GameObject("OnGUIDispatcher", typeof(OnGUIDispatcher));
+				gameObject.hideFlags = HideFlags.DontSave | HideFlags.HideInHierarchy;
 			}
 			Dispatcher.OnGUIEvent += DrawOverlay;
 		}
