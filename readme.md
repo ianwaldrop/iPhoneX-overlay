@@ -5,3 +5,5 @@ This is a simple editor utility which masks the game view in such a way to emula
 * stability, this asset should cause no interference with any other asset.
 * predictability, it's behavior should be easy to understand and function reliably
 * usability, it should disappear from the mind of the user such that it is simply useful and not a hinderance
+
+![in-editor example](https://github.com/ianwaldrop/iPhoneX-overlay/blob/master/readme.png)
