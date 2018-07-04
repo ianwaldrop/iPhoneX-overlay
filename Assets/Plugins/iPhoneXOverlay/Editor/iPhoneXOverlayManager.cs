@@ -100,10 +100,13 @@ public static class iPhoneXOverlayManager
 		Object.DestroyImmediate(DispatcherGameObject);
 	}
 
-	static void EnsureSizeExists(OrientationMetadata metadata)
+	static void EnsureSizeExists(OrientationMetadata orientationMetadata)
 	{
-		if (GameViewUtils.SizeExists(GROUP_TYPE, metadata.sizeName)) return;
-		GameViewUtils.AddCustomSize(GameViewUtils.GameViewSizeType.FixedResolution, GROUP_TYPE, metadata.width, metadata.height, metadata.sizeName);
+		if (GameViewUtils.SizeExists(GROUP_TYPE, orientationMetadata.sizeName)) return;
+		GameViewUtils.AddCustomSize(GameViewUtils.GameViewSizeType.FixedResolution, GROUP_TYPE, 
+		                            orientationMetadata.width, 
+		                            orientationMetadata.height, 
+		                            orientationMetadata.sizeName);
 	}
 	#endregion
 }
